@@ -6,7 +6,15 @@ const port = 8000;
 app.use(cors());
 
 const agendaData = {
-  "2024-10-20": [
+  "2024-10-21": [
+    {
+      name: "Rahu Shukla",
+      description: "Xano Pagination",
+      time: "10:00AM - 11:00AM",
+      color: "brown",
+    },
+  ],
+  "2024-10-22": [
     {
       name: "Dave Sebek",
       description: "JSON Data Handling",
@@ -15,7 +23,7 @@ const agendaData = {
     },
   ],
 
-  "2024-10-21": [
+  "2024-10-23": [
     {
       name: "Helen Armstrong",
       description: "Chinese Herbal Medicine \nwith Staff Member #1",
@@ -23,7 +31,7 @@ const agendaData = {
       color: "green",
     },
   ],
-  "2024-10-22": [
+  "2024-10-24": [
     {
       name: "Julie Falcon",
       description: "Acu-Facial \nwith Staff Member #1",
@@ -31,8 +39,8 @@ const agendaData = {
       color: "purple",
     },
   ],
-  "2024-10-23": [],
-  "2024-10-24": [
+  "2024-10-25": [],
+  "2024-10-26": [
     {
       name: "Nick Selman",
       description: "Custom Code in Draftbit",
